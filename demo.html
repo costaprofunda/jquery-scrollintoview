@@ -1,0 +1,44 @@
+<!doctype>
+<html>
+    <head>
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="jquery-scrollintoview.js"></script>
+
+        <style>
+            button {
+                position: absolute;
+                height: 100px;
+                width: 200px;
+            }
+
+            .top {
+                top: 0px;
+            }
+
+            .left {
+                left: 0px;
+            }
+
+            .bottom {
+                bottom: -50px;
+            }
+
+            .right {
+                position: absolute;
+                right: -100px;
+            }
+        </style>
+    </head>
+    <body>
+        <button class="top left" type="button">Click Here!</button>
+        <button class="top right" type="button">Click Here!</button>
+        <button class="bottom left" type="button">Click Here!</button>
+        <button class="bottom right" type="button">Click Here!</button>
+
+        <script>
+            $('button').on('click', function () {
+                $(this).scrollIntoView();
+            });
+        </script>
+    </body>
+</html>

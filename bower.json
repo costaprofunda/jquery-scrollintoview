@@ -1,0 +1,33 @@
+{
+  "name": "jquery-scrollintoview",
+  "main": "jquery-scrollintoview.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/jomaxx/jquery-scrollintoview",
+  "authors": [
+    "Josef Blake <jo.maxx.blake@gmail.com>"
+  ],
+  "description": "jQuery plugin to scroll element into view",
+  "moduleType": [
+    "amd",
+    "globals"
+  ],
+  "keywords": [
+    "jquery",
+    "scrollintoview",
+    "jquery-scrollintoview",
+    "scroll",
+    "into",
+    "view"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "~2.1.3"
+  }
+}
